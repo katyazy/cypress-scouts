@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "cypress": "12.10.0"
+    },
+    "scripts": {
+        "cyopen": "npx cypress open",
+        "cyrun": "npx cypress run",
+        "cyrun:chrome": "npm run cyrun -- --browser chrome",
+        "cyrun:firefox": "npm run cyrun -- --browser chrome"
+      }
+}
