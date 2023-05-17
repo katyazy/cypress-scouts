@@ -5,7 +5,6 @@
     "scripts": {
         "cyopen": "npx cypress open",
         "cyrun": "npx cypress run",
-        "cyrun:chrome": "npm run cyrun -- --browser chrome",
-        "cyrun:firefox": "npm run cyrun -- --browser chrome"
-      }
+        "cyrun:chrome": "npm run cyrun -- --browser chrome"
+    }
 }
